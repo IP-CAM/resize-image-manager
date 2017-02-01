@@ -3,16 +3,14 @@ This is a vqmod for resize image manager in ocStore (OpenCart).
 The module has been tested on ocStore version 1.5.5.1.2. 
 Perhaps suitable for all versions of 1.5.x.
 
-Installation:
+<strong>Installation</strong>:
 - download and extract archive
 - copy folder contents to your project
        
-Resize:
-
- -open a file admin/view/javascript/resize-image-manager.js
- 
- -set values:
- 
+<strong>Resize</strong>:
+<pre>
+ - open a file admin/view/javascript/resize-image-manager.js
+ - set values:
     ...
     imageResize: false,              // true - image resize, default false
     options: {
@@ -22,3 +20,4 @@ Resize:
         widthRightColumn: "87%",     // right column wight, default 78%
         heightImage: 50              // image height, default 100x100px
     },                
+</pre>
