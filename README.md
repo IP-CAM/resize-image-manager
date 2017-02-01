@@ -8,8 +8,11 @@ Installation:
 - copy folder contents to your project
        
 Resize:
-- open a file admin/view/javascript/resize-image-manager.js
-- set values : 
+
+ -open a file admin/view/javascript/resize-image-manager.js
+ 
+ -set values:
+ 
     ...
     imageResize: false,              // true - image resize, default false
     options: {
