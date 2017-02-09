@@ -8,6 +8,8 @@ Tested on ocStore version 1.5.5.1.2.
 
 Perhaps suitable for all versions of 1.5.x.
 
+Video URL     [YouTube](https://youtu.be/v68jiC1TeV4)
+
 **Installation**
 
        - to work needed installed vqmod
