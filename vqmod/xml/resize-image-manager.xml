@@ -2,7 +2,7 @@
 <modification>
     <id>Resize image manager(RIM)</id>
     <version>1.2</version>
-    <vqmver>2.4.1</vqmver>
+    <vqmver>2.3.0+</vqmver>
     <author>Mi3girb</author>
     <file path="admin/view/template/common/" name="footer.tpl,filemanager.tpl">
         <operation error="log">
