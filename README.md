@@ -1,23 +1,83 @@
-This is a vqmod for resize image manager in ocStore (OpenCart).
+##Resize Image Manager (RIM).
+---
+English
 
-The module has been tested on ocStore version 1.5.5.1.2. 
+####This is a modification for ocStore(OpenCart) allows you to resize Image Manager and pictures.
+
+Tested on ocStore version 1.5.5.1.2. 
+
 Perhaps suitable for all versions of 1.5.x.
 
-<strong>Installation</strong>:
-- download and extract archive
-- copy folder contents to your project
+Video URL     [YouTube](https://youtu.be/v68jiC1TeV4)
+
+**Installation**
+
+       - to work needed installed vqmod
+       - download and extract archive
+       - copy folders contents to your project
+----
+**Use**
+
+Edit a file admin/view/javascript/resize-image-manager.js
+```
+       ...
+       imageResize: false,          // true - enable resize image, default false
+       options: {
+              heightBox: "550px",   // image manager height, default 400px
+              widthBox: "97%",      // image manager wight, default 800px
+              ...
+              heightImage: "50px"   // image height, default 100x100px (ignore if imageResize is false)
+       },
+```
+---
+**Uninstall**
+
+For a full removal you need remove files: 
+
+       - admin/view/javascript/resize-image-manager.js
+       - vqmod/xml/resize-image-manager.xml
+
+
+Русский
+####Модификация для ocStore(OpenCart) позволяет изменять размеры Менеджера изображений и самих картинок.
+
+Тестировалось на ocStore ver. 1.5.5.1.2. 
+
+Полагаю, подойдёт для всех ver. 1.5.x.
+
+**Установка**
+
+       - для работы необходим установленный vqmod
+       - загрузить и извлечь архив
+       - скопировать содержимое каталогов в проект
+----
+**Использование**
+
+Установить свои значения в файле admin/view/javascript/resize-image-manager.js
+```
+       ...
+       imageResize: false,          // true - enable resize image, default false
+       options: {
+              heightBox: "550px",   // image manager height, default 400px
+              widthBox: "97%",      // image manager wight, default 800px
+              ...
+              heightImage: "50px"   // image height, default 100x100px (ignore if imageResize is false)
+       },
+```
+---
+**Удаление**
+
+Для полного удаления необходимо удалить файлы: 
+
+       - admin/view/javascript/resize-image-manager.js
+       - vqmod/xml/resize-image-manager.xml       
        
-<strong>Resize</strong>:
-<pre>
- - open a file admin/view/javascript/resize-image-manager.js
- - set values:
-    ...
-    imageResize: false,              // true - image resize, default false
-    options: {
-        heightBox: 550,              // image manager height, default 400px
-        widthBox: "97%",             // image manager wight, default 800px
-        widthLeftColumn: "12         // left column wight, default 20%
-        widthRightColumn: "87%",     // right column wight, default 78%
-        heightImage: 50              // image height, default 100x100px
-    },                
-</pre>
+---       
+**Danation**
+
+WebMoney 
+
+       - WMZ Z053784187938 
+       - WMR R414291317252 
+       
+BTC - 13bteFH6V2s4BqBRVYJLUUKWHK2A2PTJTb
