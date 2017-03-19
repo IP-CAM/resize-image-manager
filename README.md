@@ -73,7 +73,7 @@ For a full removal you need remove files:
        - vqmod/xml/resize-image-manager.xml       
        
 ---       
-**Danation**
+**Donation**
 
 WebMoney 
 
