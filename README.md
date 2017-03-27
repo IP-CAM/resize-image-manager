@@ -1,8 +1,8 @@
-##Resize Image Manager (RIM).
+## Resize Image Manager (RIM).
 ---
 English
 
-####This is a modification for ocStore(OpenCart) allows you to resize Image Manager and pictures.
+#### This is a modification for ocStore(OpenCart) allows you to resize Image Manager and pictures.
 
 Tested on ocStore version 1.5.5.1.2. 
 
